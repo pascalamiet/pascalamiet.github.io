@@ -8,12 +8,12 @@ Open `index.html` in your browser. Changes to the files appear after refreshing.
 
 ## Personalize
 
-1. Edit `index.html`: replace Your Name, YN (the initials), position, university, biography, research interests, and contact details. Update the page title and description in `<head>` too.
+1. Edit `index.html`: replace Your Name, position, university, biography, research interests, and contact details. Update the page title and description in `<head>` too.
 2. Replace the sample papers and courses. Duplicate or remove an entire `<article class="paper">` for each paper; use `data-type="working"` or `data-type="published"` so the filters work. Update both the visible tag and the year. Put abstracts inside `<details>`.
 3. Create a `papers` folder, add your PDFs, and add links such as `<a class="text-link" href="papers/my-paper.pdf">Paper (PDF) ↗</a>` inside the relevant paper body. Use relative links without a leading slash so the site works under a repository subpath.
 4. Edit `cv.html` to match your actual CV. Its print button opens the browser print dialog; choose Save as PDF to export it. Alternatively, add your existing PDF as `cv.pdf` and point the CV links in both HTML files to it.
 5. Replace the placeholder email in both the visible text and `mailto:` links. Remove the sample-content notices after replacing all sample content.
-6. Change the colors at the top of `styles.css` if desired. For a headshot, replace the monogram div with an image, e.g. `<img src="portrait.jpg" alt="Your Name" style="width:100%;height:auto;display:block;margin-bottom:27px">`, and place the image beside `index.html`.
+6. Change the colors at the top of `styles.css` if desired. The portrait is `pictures/comic-v3.png`, displayed to the left of the introduction on desktop and above it on mobile. Replace that file or update the image path and alt text in `index.html` to change the portrait.
 
 ## Publish on GitHub Pages
 
