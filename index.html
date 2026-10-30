@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Academic website template for an economist. Research, teaching, curriculum vitae, and contact information.">
+  <meta name="theme-color" content="#f7f6f2">
+  <title>Your Name — Economist</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header wrap">
+    <a class="wordmark" href="./" aria-label="Your Name, home">Your Name<span class="name-dot">.</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#research">Research</a><a href="#teaching">Teaching</a><a href="cv.html">CV <span aria-hidden="true">↗</span></a><a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main" class="wrap">
+    <section class="intro" aria-labelledby="intro-title">
+      <div>
+        <p class="eyebrow">Economics · Research &amp; Teaching</p>
+        <h1 id="intro-title">Your Name</h1>
+        <p class="position">Assistant Professor of Economics<br>University Name</p>
+        <p class="intro-copy">I study how people and places respond to economic change, with a focus on labor markets, public policy, and inequality.</p>
+        <p class="intro-note">My research combines administrative data and applied microeconometric methods to understand the effects of policy on workers and firms.</p>
+        <a class="text-link" href="#research">Explore my research <span aria-hidden="true">↓</span></a>
+      </div>
+      <aside class="profile-note" aria-label="Affiliation and research interests">
+        <div class="monogram" aria-hidden="true">YN<span>ECONOMICS</span></div>
+        <p class="eyebrow">Research interests</p>
+        <p>Labor economics<br>Public economics<br>Applied microeconomics</p>
+        <div class="profile-bottom"><span class="small-label">Based at</span><p>Department of Economics<br>University Name · City, Country</p></div>
+      </aside>
+    </section>
+
+    <section id="research" class="section" aria-labelledby="research-title">
+      <div class="section-heading"><div><p class="eyebrow">01 / Research</p><h2 id="research-title">Selected research</h2></div><p class="section-note">Sample papers — replace with your work.</p></div>
+      <div class="filters" role="group" aria-label="Filter research" hidden>
+        <button type="button" data-filter="all" aria-pressed="true">All research</button>
+        <button type="button" data-filter="working" aria-pressed="false">Working papers</button>
+        <button type="button" data-filter="published" aria-pressed="false">Publications</button>
+      </div>
+      <p id="filter-status" class="sr-only" aria-live="polite"></p>
+      <div class="paper-list">
+        <!-- Duplicate an article to add a paper. Use data-type="working" or "published". -->
+        <article class="paper" data-type="working">
+          <div class="paper-meta"><span class="tag">Working paper</span><span>2026</span></div>
+          <div class="paper-body"><h3>Local labor markets and the uneven effects of economic change</h3><p class="authors">with Coauthor Name</p><p class="paper-summary">How local institutions shape workers’ adjustment to changing labor demand.</p><details><summary>Abstract</summary><p>This is a sample abstract. Replace it with your research question, data, empirical approach, and main findings. A concise paragraph should help readers understand what the paper contributes and why it matters.</p></details><!-- Add a paper link here when available: <a class="text-link" href="papers/your-paper.pdf">Paper (PDF) ↗</a> --></div>
+        </article>
+        <article class="paper" data-type="working">
+          <div class="paper-meta"><span class="tag">Working paper</span><span>2026</span></div>
+          <div class="paper-body"><h3>Public investment and opportunity across generations</h3><p class="authors">with Coauthor Name and Coauthor Name</p><p class="paper-summary">The long-run relationship between place-based policies and economic mobility.</p><details><summary>Abstract</summary><p>This is a sample abstract. Explain the policy setting and the source of variation used in your analysis. Summarize the central result and its implications, and add a link to the latest draft when it is ready to share.</p></details></div>
+        </article>
+        <article class="paper" data-type="published">
+          <div class="paper-meta"><span class="tag published">Publication</span><span>2025</span></div>
+          <div class="paper-body"><h3>Firms, wage setting, and the distribution of earnings</h3><p class="authors">with Coauthor Name</p><p class="journal">Journal Name, volume(issue), pages · Sample citation</p><p class="paper-summary">Understanding the role of firms in differences in pay across workers.</p><details><summary>Abstract</summary><p>This is a sample abstract for a published paper. Replace this text and the citation above with the publication’s actual details. You can add links to the published article, an accessible working-paper version, code, and replication data.</p></details></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="teaching" class="section" aria-labelledby="teaching-title">
+      <div class="section-heading"><div><p class="eyebrow">02 / Teaching</p><h2 id="teaching-title">In the classroom</h2></div><p class="section-note">Sample courses — replace with your teaching.</p></div>
+      <p class="section-intro">I teach students to connect economic ideas with evidence, and to use data to ask better questions about the world.</p>
+      <div class="course"><div><span class="small-label">Undergraduate · Fall 2026</span><h3>Applied Econometrics</h3><p>From causal questions to credible empirical analysis.</p><details><summary>Course overview</summary><p>Sample overview: regression, research design, instrumental variables, and difference-in-differences, with hands-on empirical assignments. Add your syllabus and course website links here.</p></details></div><span class="course-code">ECON 301</span></div>
+      <div class="course"><div><span class="small-label">Graduate · Spring 2026</span><h3>Topics in Labor Economics</h3><p>Workers, firms, and the institutions that shape labor markets.</p><details><summary>Course overview</summary><p>Sample overview: labor supply and demand, wage inequality, firm behavior, and policy evaluation. Replace this description with your course outline and links to materials.</p></details></div><span class="course-code">ECON 602</span></div>
+    </section>
+
+    <section id="cv" class="cv-strip" aria-labelledby="cv-title"><div><p class="eyebrow">03 / Curriculum vitae</p><h2 id="cv-title">The longer version.</h2><p>Appointments, education, research, and teaching.</p></div><a class="button" href="cv.html">View curriculum vitae <span aria-hidden="true">↗</span></a></section>
+
+    <section id="contact" class="section contact" aria-labelledby="contact-title"><div><p class="eyebrow">04 / Contact</p><h2 id="contact-title">Get in touch.</h2><a class="contact-email" href="mailto:your.name@example.edu">your.name@example.edu <span aria-hidden="true">↗</span></a></div><div class="address"><p class="small-label">Office</p><p>Department of Economics<br>University Name<br>Building, Room Number<br>Postal Code · City, Country</p></div></section>
+  </main>
+  <footer class="site-footer wrap"><p>© <span data-year>2026</span> Your Name</p><p>Academic website template · All content is illustrative</p><a href="#main">Back to top ↑</a></footer>
+</body>
+</html>
