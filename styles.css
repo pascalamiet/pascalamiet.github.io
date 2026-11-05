@@ -60,6 +60,9 @@ nav a:hover, nav a[aria-current="location"] { background: var(--accent-soft); co
 .intro { padding: 56px 0 40px; }
 h1, h2, h3, h4, p { margin-top: 0; }
 h1, h2, h3, h4 { font-family: inherit; color: var(--ink); }
+#intro-title .intro-greeting { display: block; color: var(--ink); font-size: 15px; line-height: 1.5; letter-spacing: 0; font-weight: 400; margin-bottom: 4px; }
+#intro-title .intro-name { display: block; color: var(--accent); font-size: clamp(30px, 5vw, 40px); line-height: 1.2; letter-spacing: -1px; font-weight: 700; }
+#intro-title { margin-bottom: 20px; }
 h1 { font-size: 23px; line-height: 1.5; letter-spacing: -.7px; font-weight: 600; margin-bottom: 8px; }
 .position { color: var(--muted); font-size: 13px; margin-bottom: 28px; }
 .intro-copy { font-size: 17px; line-height: 1.8; margin-bottom: 20px; }
@@ -192,3 +195,7 @@ details p { margin-bottom: 8px; padding-left: 14px; border-left: 1px solid var(-
 .research-projects .paper { display: block; padding-block: 20px; }
 
 .research-interests { margin-top: 24px; }
+
+.course > div { width: 100%; min-width: 0; }
+.course-heading { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; }
+.course-date { font-size: 11px; color: var(--muted); white-space: nowrap; text-align: right; }
